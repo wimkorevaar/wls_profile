@@ -196,6 +196,7 @@ class wls_profile::basic_domain::wls_domain (
     'standard',
     'forms',
     'ohs_standalone',
+    'web',
     'adf_restricted',
     'osb',
     'osb_soa',
