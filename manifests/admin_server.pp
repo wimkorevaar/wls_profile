@@ -280,7 +280,7 @@ class wls_profile::admin_server (
   Optional[String] $wls_users_and_groups = undef,
   Optional[String] $fmw_cluster = undef,
 ) inherits wls_profile {
-  $install_fusion = $wls_profile::install_type in ['forms','ohs_standalone','osb','osb_soa','osb_soa_bpm','soa','soa_bpm','bam','oim','oud','wc','wc_wcc_bpm']
+  $install_fusion = $wls_profile::install_type in ['forms','web','ohs_standalone','osb','osb_soa','osb_soa_bpm','soa','soa_bpm','bam','oim','oud','wc','wc_wcc_bpm']
 
   easy_type::ordered_steps([
       'wls_profile::basic_domain',
