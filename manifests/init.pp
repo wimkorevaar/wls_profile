@@ -43,6 +43,7 @@ class wls_profile (
     'standard',
     'forms',
     'ohs_standalone',
+    'web',
     'adf_restricted',
     'osb',
     'osb_soa',
