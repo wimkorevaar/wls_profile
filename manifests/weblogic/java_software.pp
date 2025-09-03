@@ -106,7 +106,6 @@ class wls_profile::weblogic::java_software (
         jce            => $jce,
         jce_url        => "${source}/${cryptography_extension_file}",
         manage_basedir => true,
-        java_home      => $wls_profile::jdk_home,
       }
 
       -> file { '/usr/bin/java':
